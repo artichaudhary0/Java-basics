@@ -54,14 +54,101 @@ public class Arti {
         boolean flag = true ;
         String str = "Hello, Java";
 
-        System.out.println(b);
-        System.out.println(s);
-        System.out.println(i);
-        System.out.println(l);
-        System.out.println(f);
-        System.out.println(d);
-        System.out.println(c);
-        System.out.println(flag);
-        System.out.println(str);
+//        System.out.println(b);
+//        System.out.println(s);
+//        System.out.println(i);
+//        System.out.println(l);
+//        System.out.println(f);
+//        System.out.println(d);
+//        System.out.println(c);
+//        System.out.println(flag);
+//        System.out.println(str);
+
+        /*
+         Control structure :
+          if
+          if else
+          nested if else
+          ladder : if , else-if
+
+          ternary => condition  ? true : false
+
+          switch
+
+          Looping
+        */
+
+//        boolean isSwitch = true ;
+
+//        if(isSwitch) // true
+//        {
+//            System.out.println("Fan is running"); // first thing
+//            isSwitch = !isSwitch; // false
+//            System.out.println(isSwitch); // false
+//        }
+//
+//        if(!isSwitch) // ! false => true
+//        {
+//            System.out.println("Not Fan is running"); // third
+//            isSwitch = !isSwitch; // true
+//            System.out.println(isSwitch); // true
+//        }
+//
+//        if(isSwitch) // true
+//        {
+//            System.out.println("Fan is running"); // first thing
+//            isSwitch = !isSwitch; // false
+//            System.out.println(isSwitch); // false
+//        }
+
+
+//        int num1 = 10 ;
+//
+//        if(num1 > 0)
+//                System.out.println("Num is positive");
+//        else  if(num1 == 0)
+//            System.out.println("Num is neutral");
+//        else
+//            System.out.println("Num is negative");
+
+//        int age = 0 ;
+//
+//        if( age>0 && age < 18)
+//        {
+//            System.out.println("You can not vote");
+//        }else if(age>=18 && age<=150){
+//            System.out.println("You can  vote");
+//        }else if(age == 0 || age < 0)
+//        {
+//            System.out.println("Need to be born");
+//        }
+//        else {
+//            System.out.println("Invalid age!!");
+//        }
+
+        // ternary is replacement of if else
+        boolean isSwitch = true ;
+        if(isSwitch)
+        {
+            System.out.println("isSwitch is true");
+        }else {
+            System.out.println("isSwitch is false");
+        }
+
+        int a ;
+
+        a = (10>20) ? 10 :  20;
+
+        boolean isSwitchh;
+        isSwitchh = false ;
+
+        boolean bb ;
+
+        bb = isSwitchh ? true : false ;
+
+        String name ;
+        name = isSwitchh ? "Arti" : "Chaudhary" ;
+        System.out.println(name);
+
     }
 }
