@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class Arti {
     public static void main(String[] args) {
         /*
@@ -127,28 +126,169 @@ public class Arti {
 //        }
 
         // ternary is replacement of if else
-        boolean isSwitch = true ;
-        if(isSwitch)
+//        boolean isSwitch = true ;
+//        if(isSwitch)
+//        {
+//            System.out.println("isSwitch is true");
+//        }else {
+//            System.out.println("isSwitch is false");
+//        }
+//
+//        int a ;
+//
+//        a = (10>20) ? 10 :  20;
+//
+//        boolean isSwitchh;
+//        isSwitchh = false ;
+//
+//        boolean bb ;
+//
+//        bb = isSwitchh ? true : false ;
+//
+//        String name ;
+//        name = isSwitchh ? "Arti" : "Chaudhary" ;
+//        System.out.println(name);
+//
+
+
+
+
+        // Switch case
+//        int choice ;
+//        int num1 , num2 ;
+//        System.out.println("Enter 1 for Addition");
+//        System.out.println("Enter 2 for Subtraction");
+//        System.out.println("Enter 3 for Multiplication");
+//        System.out.println("Enter 4 for division");
+//        System.out.println("Enter 5 for Modulus");
+//        System.out.println("Enter 0 for Exit");
+//        System.out.print("Enter your choice : ");
+//        Scanner sc = new Scanner(System.in);
+//
+//        choice = sc.nextInt();
+//
+//        switch (choice)
+//        {
+//            case 1 :
+//                System.out.print("Enter num1 : ");
+//                num1 = sc.nextInt();
+//                System.out.print("Enter num2 : ");
+//                num2 = sc.nextInt();
+//                System.out.println("Addition of "+num1 +" and "+num2 + " is "+(num1 + num2));
+//                break;
+//            case 2 :
+//                System.out.print("Enter num1 : ");
+//                num1 = sc.nextInt();
+//                System.out.print("Enter num2 : ");
+//                num2 = sc.nextInt();
+//                System.out.println("Subtraction of "+num1 +" and "+num2 + " is "+(num1 - num2));
+//                break;
+//            case 3 :
+//                System.out.print("Enter num1 : ");
+//                num1 = sc.nextInt();
+//                System.out.print("Enter num2 : ");
+//                num2 = sc.nextInt();
+//                System.out.println("Multiply of " + num1 + " and " + num2 + " is " + (num1 * num2));
+//                break;
+//            case 4 :
+//                System.out.print("Enter num1 : ");
+//                num1 = sc.nextInt();
+//                double num3 = (double) num1;
+//                System.out.print("Enter num2 : ");
+//                num2 = sc.nextInt();
+//                double num4 = (double) num2;
+//                if(num2 != 0)
+//                    System.out.println("Division of "+num1 +" and "+num2 + " is "+(num3 / num4));
+//                else
+//                    System.out.println("Can not divide by zero");
+//
+//                break;
+//            case 5 :
+//                System.out.print("Enter num1 : ");
+//                num1 = sc.nextInt();
+//                System.out.print("Enter num2 : ");
+//                num2 = sc.nextInt();
+//                if(num2 != 0)
+//                    System.out.println("Modulus of "+num1 +" and "+num2 + " is "+(num1 % num2));
+//                else
+//                    System.out.println("Can not modulus by zero");
+//                break;
+//            default:
+//                System.out.println("Invalid choice!!!");
+//                break;
+//        }
+
+             /*loop :
+             Type of loop :
+                1 : Entry control :
+                    while , for
+                2 : Exit control
+                    do - while
+                1 : while
+                2 : do while
+                3 : for loop
+
+                1 : Initialization (Starting value)
+                2 : Condition
+                3 : flow(Increment/ Decrement)
+        */
+
+//        int j ;  // 1 to 10
+//        System.out.print("Enter starting value : ");
+//        Scanner scanner = new Scanner(System.in);
+//
+//        j = scanner.nextInt();
+//        while (j<=10){
+//
+//            System.out.println(j);
+//            j++;
+//        }
+
+        // 12345
+        int count = 0;
+        int number ;
+        Scanner sc = new Scanner(System.in);
+
+        number = sc.nextInt();
+
+//        while (number>0)
+//        {
+//            number = number/10 ;
+//            count++ ;
+//        }
+//
+//        System.out.print("Total no. digit : "+count);
+
+
+//            do{
+//                count++ ;
+//                number = number/10;
+//            }while (number>0);
+//
+//        System.out.print("Total no. digit : "+count);
+
+        int j = 1 ;
+        while (number>0)
         {
-            System.out.println("isSwitch is true");
-        }else {
-            System.out.println("isSwitch is false");
+            number = number/10 ;
+            count++;
+            while (j<5)
+            {
+                System.out.println(j);
+                j++;
+            }
         }
 
-        int a ;
 
-        a = (10>20) ? 10 :  20;
 
-        boolean isSwitchh;
-        isSwitchh = false ;
 
-        boolean bb ;
 
-        bb = isSwitchh ? true : false ;
 
-        String name ;
-        name = isSwitchh ? "Arti" : "Chaudhary" ;
-        System.out.println(name);
+
+
+
+
+
 
     }
 }
