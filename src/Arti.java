@@ -43,15 +43,15 @@ public class Arti {
         */
 
         // printf = System.out.println/print() => ln = next line
-        byte b = 100 ;
-        short s = 10000 ;
-        int i = 1451541541;
-        long l = 10000000000000000L ;
-        float f = 10.5f ;
-        double d = 123.3;
-        char c = 'A';
-        boolean flag = true ;
-        String str = "Hello, Java";
+//        byte b = 100 ;
+//        short s = 10000 ;
+//        int i = 1451541541;
+//        long l = 10000000000000000L ;
+//        float f = 10.5f ;
+//        double d = 123.3;
+//        char c = 'A';
+//        boolean flag = true ;
+//        String str = "Hello, Java";
 
 //        System.out.println(b);
 //        System.out.println(s);
@@ -245,11 +245,11 @@ public class Arti {
 //        }
 
         // 12345
-        int count = 0;
-        int number ;
-        Scanner sc = new Scanner(System.in);
-
-        number = sc.nextInt();
+//        int count = 0;
+//        int number ;
+//        Scanner sc = new Scanner(System.in);
+//
+//        number = sc.nextInt();
 
 //        while (number>0)
 //        {
@@ -267,17 +267,130 @@ public class Arti {
 //
 //        System.out.print("Total no. digit : "+count);
 
-        int j = 1 ;
-        while (number>0)
+//        int j = 1 ;
+//        while (number>0)
+//        {
+//            number = number/10 ;
+//            count++;
+//            while (j<5)
+//            {
+//                System.out.println(j);
+//                j++;
+//            }
+//        }
+
+        // Array :
+
+        // declare an array
+//        int[] array ; // declare an array of integer type
+
+        // creating an array :
+//        array = new int[5];
+//
+//        // initilize array :
+//        int[] arr = {1,2,3,4,5,6};
+
+        // Accessing value of array :
+//        System.out.println(arr[3]);
+
+
+        // Modifying values :
+        // arr[3] = 44 ;
+//        System.out.println(arr[3]);
+
+//        for(int i = 0 ; i <arr.length ; i++)
+//        {
+//
+//            System.out.println(arr[i]);
+//        }
+
+        // for - each
+//        for(int value : arr)
+//        {
+//            System.out.println(value);
+//        }
+
+//        int[] arr = {1,2,3,4,5,6,7,8,9};
+//
+//        System.out.println(arr[1]);
+//        arr[2] = 234 ;
+//        System.out.println(arr[2]);
+//
+//        for(int value : arr)
+//        {
+//            System.out.println(value);
+//        }
+//
+//        for(int i = 0 ; i<arr.length ; i++)
+//        {
+//                System.out.println(arr[i]);
+//        }
+
+//        int[] array = {1,2344,2535,234,2424,68,443};
+//        int max = array[0];
+//        int sum = 0 ;
+//        int min = array[0];
+//        for(int i = 0 ; i < array.length ; i++){
+//            sum = sum + array[i];
+//            if(array[i] > max){
+//                max = array[i];
+//            }
+//            if(array[i] < min){
+//                min = array[i];
+//            }
+//        }
+
+//        System.out.println("Max element : "+ max +" sum is : "+sum+ " min is : "+min);
+//
+//        char[] charArray = {'a','A','b','c','d','Z','@'};
+//
+//        for (int i = 0; i < charArray.length; i++) {
+////              small
+////            if(charArray[i] >= 95 && charArray[i] <= 122){
+////                System.out.println(charArray[i]);
+////            }
+//            // cap 65 + 26 = 91
+//            if(charArray[i] >= 65 && charArray[i] <= 90){
+//                System.out.println(charArray[i]);
+//            }
+//        }
+
+        // Delete an element from an array by shifting the remaining elements.
+
+        int[] array = {1,2,3,4,55,5};
+        int deleteItem = 55 ;
+        int deletedIndex = -1; // 4
+
+        for(int i = 0 ; i<array.length ; i++)
         {
-            number = number/10 ;
-            count++;
-            while (j<5)
+            if(array[i] == deleteItem)
             {
-                System.out.println(j);
-                j++;
+                deletedIndex = i;
             }
         }
+
+        if(deletedIndex != -1)
+        {
+            for (int i = deletedIndex ; i < array.length - 1 ; i++)
+            {
+                // 2 = 3
+                array[i] = array[i+1];
+            }
+
+        }else{
+            System.out.println("No such element");
+        }
+
+        for (int i = 0 ; i < 5 ; i++)
+        {
+            System.out.print(array[i] + " ");
+        }
+
+
+
+
+
+
 
 
 
