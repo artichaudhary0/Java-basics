@@ -357,51 +357,33 @@ public class Arti {
 
         // Delete an element from an array by shifting the remaining elements.
 
-        int[] array = {1,2,3,4,55,5};
-        int deleteItem = 55 ;
-        int deletedIndex = -1; // 4
-
-        for(int i = 0 ; i<array.length ; i++)
-        {
-            if(array[i] == deleteItem)
-            {
-                deletedIndex = i;
-            }
-        }
-
-        if(deletedIndex != -1)
-        {
-            for (int i = deletedIndex ; i < array.length - 1 ; i++)
-            {
-                // 2 = 3
-                array[i] = array[i+1];
-            }
-
-        }else{
-            System.out.println("No such element");
-        }
-
-        for (int i = 0 ; i < 5 ; i++)
-        {
-            System.out.print(array[i] + " ");
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//        int[] array = {1,2,3,4,55,5};
+//        int deleteItem = 55 ;
+//        int deletedIndex = -1; // 4
+//
+//        for(int i = 0 ; i<array.length ; i++)
+//        {
+//            if(array[i] == deleteItem)
+//            {
+//                deletedIndex = i;
+//            }
+//        }
+//
+//        if(deletedIndex != -1)
+//        {
+//            for (int i = deletedIndex ; i < array.length - 1 ; i++)
+//            {
+//                // 2 = 3
+//                array[i] = array[i+1];
+//            }
+//
+//        }else{
+//            System.out.println("No such element");
+//        }
+//
+//        for (int i = 0 ; i < 5 ; i++)
+//        {
+//            System.out.print(array[i] + " ");
+//        }
     }
 }
