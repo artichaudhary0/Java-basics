@@ -15,14 +15,6 @@ public class Outer {
 }
 
 
-/* Type of Inner classes :
-1 : regular inner class :
-2 : static nested class :
-3 : local inner class
-4 : Anonymous inner class
-*/
-
-
 
 
 

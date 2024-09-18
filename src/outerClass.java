@@ -12,5 +12,4 @@ public class outerClass {
         StaticMessageClass staticMessageClass = new StaticMessageClass();
         staticMessageClass.displayMessage();
     }
-
 }
