@@ -1,10 +1,8 @@
-/*
+package CLASS;/*
 A wrapper class usually refers to wraps or encapsulates another class or primitive type
 * */
 
 // int[] arrayName
-
-import java.util.Scanner;
 
 public  class Main{
     public static void  main(String[] args) {

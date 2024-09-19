@@ -1,3 +1,5 @@
+package CLASS;
+
 public class Outer {
     private String message = "This is the outer class";
 

@@ -1,4 +1,4 @@
-// Inner class can also be used dynamically within the loop structure
+package CLASS;// Inner class can also be used dynamically within the loop structure
 
 public class InnerWithLoop {
 

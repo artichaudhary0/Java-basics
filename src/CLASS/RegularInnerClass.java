@@ -1,4 +1,4 @@
-/*inner class access both static and non-static members of the class*/
+package CLASS;/*inner class access both static and non-static members of the class*/
 
 public class RegularInnerClass {
     private String message = "cjswvtwucvx";

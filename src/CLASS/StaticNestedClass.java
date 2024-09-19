@@ -1,3 +1,5 @@
+package CLASS;
+
 /*
 behave like a regular class but is nested inside the another class.
 It cannot access the non-static members of the outer class

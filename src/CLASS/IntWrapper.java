@@ -1,3 +1,5 @@
+package CLASS;
+
 import java.util.Scanner;
 
 // wrapper class

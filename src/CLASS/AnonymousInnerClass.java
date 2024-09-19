@@ -1,3 +1,5 @@
+package CLASS;
+
 /*
 class without the name and is ofter used when implements interface or extending class.
 This is commonly used for short-lived object like events.

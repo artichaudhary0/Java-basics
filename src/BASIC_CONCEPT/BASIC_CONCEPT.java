@@ -1,6 +1,6 @@
-import java.util.Scanner;
+package BASIC_CONCEPT;
 
-public class Arti {
+public class BASIC_CONCEPT {
     public static void main(String[] args) {
         /*
             Data type :

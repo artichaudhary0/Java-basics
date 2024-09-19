@@ -1,4 +1,4 @@
-/*
+package CLASS;/*
 Local inner class is defined within a method or block of the code and can access local variables that are effectively final
  */
 

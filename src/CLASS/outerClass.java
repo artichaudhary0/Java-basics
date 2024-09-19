@@ -1,3 +1,5 @@
+package CLASS;
+
 public class outerClass {
 
     private  static  String staticMessage = " This is a static message";
