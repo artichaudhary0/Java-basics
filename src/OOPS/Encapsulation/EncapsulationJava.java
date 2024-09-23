@@ -1,10 +1,10 @@
-package OOPS;
+package OOPS.Encapsulation;
 /*
 Access modifier : (control the visibility of member-variable and member-function.)
 1 : private.
 2 : protected.
 3 : public.
-Encapsulation : wrapping up member-variable(attributes) and member-function(methods).
+OOPS.Encapsulation : wrapping up member-variable(attributes) and member-function(methods).
 
 Constructor :
 Automatically invoke when ever an object(instance of class) is created.
