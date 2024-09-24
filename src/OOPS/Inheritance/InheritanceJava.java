@@ -35,12 +35,12 @@ class ParentClass {
 }
 
 // : => c++ , extends java
-class ChildClass extends ParentClass {
-    // child
-    public ChildClass(int id, String name) {
-        super(id, name);
-    }
-}
+//class ChildClass extends ParentClass {
+//    // child
+//    public ChildClass(int id, String name) {
+//        super(id, name);
+//    }
+//}
 
 public class InheritanceJava {
     public static void main(String[] args) {
@@ -51,6 +51,6 @@ public class InheritanceJava {
         System.out.println("Enter the name of the child: ");
         String name = sc.next();
 
-        ChildClass c1 = new ChildClass(id ,name);
+//        ChildClass c1 = new ChildClass(id ,name);
     }
 }
