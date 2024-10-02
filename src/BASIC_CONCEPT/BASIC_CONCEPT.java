@@ -385,5 +385,10 @@ public class BASIC_CONCEPT {
 //        {
 //            System.out.print(array[i] + " ");
 //        }
+
+        final int a;
+        a = 45;
+        System.out.println(a);
+
     }
 }
