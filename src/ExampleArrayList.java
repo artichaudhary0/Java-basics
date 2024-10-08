@@ -89,13 +89,6 @@ public class ExampleArrayList {
 
       persons.clear();
         System.out.println(persons);
-
-
-
-
-
-
-
   }
 
 }
